@@ -1,0 +1,92 @@
+html, body {
+  color: black;
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: #006;
+}
+
+header {
+  background: #ccc;
+  padding: .5em;
+  margin-left: -.5em;
+  margin-right: -.5em;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+ul {
+  color: blue;
+}
+
+li.tasty {
+  font-weight: bold;
+  color: red;
+}
+
+#couscous {
+  background-color: pink;
+}
+
+nav {
+  margin-bottom: 1em;
+}
+
+nav a {
+  border: thin solid black;
+  border-radius: .25em;
+  padding: .25em .5em;
+  background-color: #ddd;
+  text-decoration: none;
+  color: black;
+}
+
+nav a.active {
+  font-weight: bold;
+  background-color: bisque;
+  border-color: bisque;
+  cursor: default;
+}
+
+iframe, video {
+  max-width: 100%;
+}
+
+body {
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 60em) {
+  article {
+    position: relative;
+  }
+  img {
+    position: absolute;
+    right: 31em;
+    /* left: 31em; */
+    max-width: 15em;
+  }
+}
