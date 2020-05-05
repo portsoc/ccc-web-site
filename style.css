@@ -29,6 +29,13 @@ header {
   padding: .5em;
   margin-left: -.5em;
   margin-right: -.5em;
+  position: relative;
+}
+
+header > .like {
+  position: absolute;
+  right: 1em;
+  top: .5em;
 }
 
 h3 {
